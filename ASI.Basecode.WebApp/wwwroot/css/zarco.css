@@ -240,5 +240,8 @@ img.hover-shadow {
     max-width: 85px;
     max-height: 100px;
 }
+.img {
+    height: 20px;
+}
 
 
