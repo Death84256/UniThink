@@ -1,5 +1,3 @@
-﻿
-
 
 .gallery-image {
     padding: 20px;
@@ -106,11 +104,6 @@
     .navbar-color.scrolled {
         background-color: #FFF2F2
     }
-
-
-.row > .column {
-    padding: 0 11px;
-}
 
 .row:after {
     content: "";
@@ -239,7 +232,4 @@ img.hover-shadow {
     height: 100%;
     max-width: 85px;
     max-height: 100px;
-}
-
-
 
