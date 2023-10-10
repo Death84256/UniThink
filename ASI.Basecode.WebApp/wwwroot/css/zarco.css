@@ -110,11 +110,6 @@
         background-color: #FFF2F2
     }
 
-
-.row > .column {
-    padding: 0 11px;
-}
-
 .row:after {
     content: "";
     display: table;
@@ -242,8 +237,4 @@ img.hover-shadow {
     height: 100%;
     max-width: 85px;
     max-height: 100px;
-}
-
-.row {
-    background-color: #c6cee4;
 }
