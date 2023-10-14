@@ -5,7 +5,12 @@
         <img src="~/img/asi-logo-invert.svg"
              style="width: 185px;" alt="logo"
              onclick="window.location.href = '@Url.Action("Index", "Home")';">
+
     </div>
+    <a asp-action="Index" asp-controller="New"style="color:black;">Sebial</a>
+    <a asp-action="Index" asp-controller="Xintona" style="color:black;">Xintona Page</a>
+    <a asp-action="Abang" asp-controller="Abang" style="color:black;">Abang Page</a>
+    <a asp-action="Index" asp-controller="Dwieght"style="color:black;">Dwieght Page</a>
     <a asp-action="Index" asp-controller="GroupAct" style="color:black;">Zarco</a>
     <div class="logosec">
         @HttpContextAccessor.HttpContext.Session.GetString("UserName")
