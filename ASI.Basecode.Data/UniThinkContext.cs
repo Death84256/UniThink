@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -18,10 +18,12 @@ namespace ASI.Basecode.Data
         }
 
         public virtual DbSet<User> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(entity =>
             {
+                entity.HasIndex(e => e.UserId, "UQ__Users__1788CC4D3014D400")
                 entity.HasIndex(e => e.UserId, "UQ__Users__1788CC4D923ED2DF")
                     .IsUnique();
 
