@@ -1,8 +1,4 @@
-﻿img {
-    width: 400px;
-    height: 300px;
-}
-
+﻿
 
 .gallery-image {
     padding: 20px;
@@ -244,6 +240,3 @@ img.hover-shadow {
     max-height: 100px;
 }
 
-.row {
-    background-color: #c6cee4;
-}
