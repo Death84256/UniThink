@@ -23,7 +23,7 @@ namespace ASI.Basecode.Data
         {
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasIndex(e => e.UserId, "UQ__Users__1788CC4D3014D400")
+                entity.HasIndex(e => e.UserId, "UQ__Users__1788CC4D3014D400");
                 entity.HasIndex(e => e.UserId, "UQ__Users__1788CC4D923ED2DF")
                     .IsUnique();
 
